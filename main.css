@@ -1,0 +1,169 @@
+body{
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+/*Navegacuón*/
+header{
+   background-color: #FFFFFF;
+    width: 100%;
+    height: 60px
+}
+
+header nav{
+background-color: #FFFFFF;
+display: flex;
+justify-content: flex-end; /*Justficar a la derecha*/
+}
+
+header nav .nav-rigth-section{
+    background-color: #FFFFFF;
+    width: 30%;
+    list-style: none;/*Quita los puntitos de las biñetas*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+a{
+    text-decoration: none;/*Quitamos la linea abajo de la ancla*/
+    margin-right: 25px;
+    color: rgba(0,0,0,.87);
+}
+
+ nav .nav-rigth-section .menu{
+   
+    background-image: url(https://img.icons8.com/ios-glyphs/90/000000/circled-menu.png);
+    width: 20px;
+    height: 20px;
+    background-size: contain;/*Ajusta la imagen a las carateristicas anteriores*/
+ }
+ /*Ajustes de la imagen*/
+  nav .nav-rigth-section img{
+    width: 35px;
+    height: 35px;
+    margin-left: 15px;/*separación*/
+    border-radius: 5px;
+  }
+  /*Buscador*/
+ main{
+     margin-top: 150px;/*Baja la imagen crea un margen arriba*/
+     text-align: center;/*Para centrar*/
+ }
+ /*Sección logo*/
+ main .main-logo{
+     width: 530px;/*Ancho*/
+     margin: 0 auto;
+     /* margin: 0 auto;
+     0 - no margen arriba t abajo
+     auto- izquierda y derecha se ajustan auto*/
+     margin-bottom: 35px;/*Separación*/
+    }
+ main .main-logo .log1{
+     height:120px ;/*Altura*/  
+ }
+ main .main-input{
+    width: 530px;
+    margin: 0 auto;
+ }
+ main .main-input-container{
+    border: 1px solid #dfe1e5;
+    width: 525px;
+    border-radius: 30px;
+    margin-bottom: 35px;
+ }
+ main .main-input input{
+    border: none;
+    height: 40px;
+    outline: none;/*elimina el recuadro del cuadro de tex*/
+    width: 400px; 
+}
+main .main-input-container:hover{/*Hace la simulación de los botones*/
+    border-color: #dfe1e500;
+    box-shadow:0 1px 6px 0px  #20212447;
+}
+main .main-input .search-icon{
+    background-image: url(https://seekicon.com/free-icon-download/search_20.svg);
+    background-position: center;
+    background-size: contain;
+    height: 17px;
+    padding-left: 6%;
+    background-repeat: no-repeat;/*No repetir la imagen*/
+    margin-left: 3px;
+}
+/*Tarea*/
+/*Agregar icono de microfono*/
+main .main-input .micro-icon{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png);
+    background-position: center;
+    background-size: contain;
+    height: 4px;
+    padding-left: 4%;
+    background-repeat: no-repeat;
+ 
+}
+/*Agregar icono de camarita*/
+main .main-input .cam-icon{
+    background-image: url(https://static.wikia.nocookie.net/logopedia/images/2/2b/Google_Lens_2021.svg);
+    background-position: center;
+    background-size: contain;
+    height: 3px;
+    padding-left: 3%;
+    background-repeat: no-repeat;
+  
+}
+main .main-buttons{
+width: 530px;
+margin: 0 auto;
+}
+main .main-buttons div{
+    display: inline; /*Pasen a estar en linea los botones*/
+}
+main .main-buttons button{
+border: 0;
+background-color: #f8f8fa;
+font-size: 18px;
+color: #3c4043;
+height: 40px;
+border-radius: 4px;
+padding: 0 15px;
+margin-right: 15px;/*Margen a al derecha*/
+}
+main .main-buttons button:hover{
+    border-color: #dfe1e500;
+    box-shadow:0 1px 6px 0px  #20212447;
+}
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background: #f1f1f7;
+}
+footer .country{
+padding: 5px 0;
+border-bottom:  1px solid #7f8286;
+}
+footer .country p{
+    margin-left: 30px;
+    color:#7f8286;
+    font-size: 14px;
+}
+footer .onther{
+    display:flex;
+    justify-content: space-between;
+    width: 95%;
+    margin:auto;
+    padding: 10px 0;
+}
+footer .onther a{
+    color: #7f8286;
+    text-decoration: none;
+    margin:10px;
+    display: inline-block;
+    font-size: 14px;
+}
+footer .onther a:hover{
+    text-decoration: underline;
+}
